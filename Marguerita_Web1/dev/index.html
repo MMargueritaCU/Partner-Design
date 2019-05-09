@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
@@ -17,10 +18,13 @@
 
   <header id="header">
     <div>
-      <h1>DISPLAY PROPERTY</h1>
-      <p>The display property specifies if/how an element is laid out on the page.</p>
-      <p>It specifies the display behavior (the type of rendering box) of an element.</p>
-      <p> In HTML, the default display property value is taken from the HTML specifications or from the browser/user default style sheet.</p>
+      <h1>DISPLAY</h1>
+      <h2>PROPERTY</h2>
+      <div>
+        <p>The display property specifies if/how an element is laid out on the page.</p>
+        <p>It specifies the display behavior (the type of rendering box) of an element.</p>
+        <p> In HTML, the default display property value is taken from the HTML specifications or from the browser/user default style sheet.</p>
+      </div>
     </div>
   </header>
 
@@ -28,10 +32,17 @@
     <div class="content-grid-item">
       <article>
         <h2>DISPLAY: IN-LINE;</h2>
-        <p>Elements that are placed side by side, are inline elements ( use the <span></span> tag ).</p>
-        <p>Take space only as much as they need and do not accept width or height properties, and top-bottom margin</p>
-        <p>Can be a parent of other inline elements</p>
+        <div>
+          <p>Elements that are placed side by side, are inline elements ( use the &lt;span&gt; tag ).</p>
+          <p>Take space only as much as they need and do not accept width or height properties, and top-bottom margin</p>
+          <p>Can be a parent of other inline elements</p>
+        </div>
       </article>
+    </div>
+  </section>
+
+  <section class="content-grid" id="inline-img">
+    <div class="content-grid-item">
       <img src="img/gallery/in-line.png" alt="in-line">
     </div>
   </section>
@@ -40,10 +51,17 @@
     <div class="content-grid-item">
       <article>
         <h2>DISPLAY: BLOCK;</h2>
-        <p>The element is displayed as a block, as paragraphs and headers have always been. </p>
-        <p>Elements that each starting with a new line are called block-level elements</p>
-        <p>A block has some whitespace above and below it and tolerates no HTML elements next to it, except when ordered otherwise (by adding a float declaration to another element, for instance).</p>
+        <div>
+          <p>The element is displayed as a block, as paragraphs and headers have always been. </p>
+          <p>Elements that each starting with a new line are called block-level elements</p>
+          <p>A block has some whitespace above and below it and tolerates no HTML elements next to it, except when ordered otherwise (by adding a float declaration to another element, for instance).</p>
+        </div>
       </article>
+    </div>
+  </section>
+
+  <section class="content-grid" id="block-img">
+    <div class="content-grid-item">
       <img src="img/gallery/block.png" alt="block">
     </div>
   </section>
@@ -52,10 +70,17 @@
     <div class="content-grid-item">
       <article>
         <h2>DISPLAY: IN-LINE BLOCK;</h2>
-        <p>The element shows both the characteristics of inline and block-level elements.</p>
-        <p>In other words, we can think of an inline element, that width & height properties can be set, or we can think of a block-level element, that doesn’t have to start with a new line.</p>
-        <p>Now they can be placed side by side and also width & height properties can be set.</p>
+        <div>
+          <p>The element shows both the characteristics of inline and block-level elements.</p>
+          <p>In other words, we can think of an inline element, that width & height properties can be set, or we can think of a block-level element, that doesn’t have to start with a new line.</p>
+          <p>Now they can be placed side by side and also width & height properties can be set.</p>
+        </div>
       </article>
+    </div>
+  </section>
+
+  <section class="content-grid" id="inlineblock-img">
+    <div class="content-grid-item">
       <img src="img/gallery/visual.png" alt="visual">
     </div>
   </section>
@@ -66,8 +91,13 @@
         <h2>DISPLAY: NONE;</h2>
         <p>Hiding an element can be done by setting the display property to none. The element will be hidden, and the page will be displayed as if the element is not there.</p>
         <p>This is commonly used with JavaScript to hide and show elements without deleting and recreating them.</p>
-        <p>The <script></script> element uses display: none; as default. </p>
+        <p>The &lt;script&gt; element uses display: none; as default. </p>
       </article>
+    </div>
+  </section>
+
+  <section class="content-grid" id="none-visual">
+    <div class="content-grid-item">
       <div>
         <h3><span>BEFORE</span>DISPLAY: NONE;</h3>
         <h3><span>AFTER</span>DISPLAY: NONE;</h3>

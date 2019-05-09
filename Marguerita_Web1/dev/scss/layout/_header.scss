@@ -2,10 +2,33 @@
     Header
 ============= */
 #header{
-  padding: 36px 15px 20px;
+  padding: 25px 15px 20px;
   background-color: $blue;
 
   h1{
     color: $lightBlue;
+    text-shadow: -2px -2px $black;
+    font-size: rem-calc(45);
+    line-height: 61px;
+    letter-spacing: -0.02px;
   }
+  h2{
+    color: $lightBlue;
+    text-shadow: -2px -2px $black;
+    font-size: rem-calc(45);
+    line-height: 61px;
+    letter-spacing: -0.02px;
+    text-align: right;
+  }
+  div{
+    padding-top: 15px;
+    p{
+      font-size: rem-calc(14);
+      line-height: 18px;
+      padding: 10px;
+      background-color: $lightBlue;
+      margin-bottom: 20px;
+    }
+  }
+
 }

@@ -6,10 +6,17 @@
   article{
     h2{
       color: $blue;
+      text-shadow: -1.5px -1.5px $black;
+      font-size: rem-calc(22);
+      line-height: 30px;
     }
-  }
-  img{
-    background-color: $white;
-    width: 100%;
+    div{
+      padding-top: 10px;
+      p{
+        font-size: rem-calc(14);
+        line-height: 19px;
+        padding-bottom: 20px;
+      }
+    }
   }
 }

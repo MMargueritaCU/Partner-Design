@@ -15,12 +15,9 @@ ul{
     display: grid;
     grid-template-columns: 25px auto 25px;
     grid-template-areas: ". content .";
+    padding: 20px 0;
 
     .content-grid-item {
         grid-area: content;
     }
-}
-
-.site-section{
-  padding-top: 33px;
 }

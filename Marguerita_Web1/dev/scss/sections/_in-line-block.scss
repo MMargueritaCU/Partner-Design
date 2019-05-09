@@ -6,10 +6,15 @@
   article{
     h2{
       color: $green;
+      text-shadow: -1.5px -1.5px $black;
     }
-  }
-  img{
-    background-color: $white;
-    width: 100%;
+    div{
+      padding-bottom: 5px;
+      p{
+        padding-top: 20px;
+        font-size: rem-calc(14);
+        line-height: 19px;
+      }
+    }
   }
 }

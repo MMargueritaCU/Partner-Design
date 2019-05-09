@@ -266,6 +266,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/sections/_block-img.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/sections/_block-img.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/sections/_block.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -327,6 +340,45 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/sections/_in-line.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/sections/_inline-img.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/sections/_inline-img.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/sections/_inlineblock-img.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/sections/_inlineblock-img.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/sections/_none-visual.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/sections/_none-visual.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
