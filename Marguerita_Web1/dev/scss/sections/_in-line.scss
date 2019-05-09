@@ -1,0 +1,15 @@
+/* =============
+    In-Line
+============= */
+#in-line{
+  background-color: $greyBackground;
+  article{
+    h2{
+      color: $purple;
+    }
+  }
+  img{
+    background-color: $white;
+    width: 100%;
+  }
+}

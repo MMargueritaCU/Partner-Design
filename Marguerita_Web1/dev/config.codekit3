@@ -29,91 +29,81 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/img/gallery/instagram-logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/gallery/instagram-logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/gallery/post-1.jpg": {
-		"ft": 16384,
-		"iS": 28644,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/gallery/post-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/gallery/post-2.jpg": {
-		"ft": 16384,
-		"iS": 26376,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/gallery/post-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/gallery/post-3.jpg": {
-		"ft": 16384,
-		"iS": 24022,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/gallery/post-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/gallery/post-4.jpg": {
-		"ft": 16384,
-		"iS": 28126,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/gallery/post-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/header/logo.png": {
+	"/img/gallery/block.png": {
 		"ft": 32768,
-		"iS": 4420,
+		"iS": 2876,
 		"oA": 0,
-		"oAP": "/img/header/logo.png",
+		"oAP": "/img/gallery/block.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/img/hero/hero-1.png": {
+	"/img/gallery/grid.png": {
 		"ft": 32768,
-		"iS": 74503,
+		"iS": 6586,
 		"oA": 0,
-		"oAP": "/img/hero/hero-1.png",
+		"oAP": "/img/gallery/grid.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/img/hero/hero-2.jpg": {
-		"ft": 16384,
-		"iS": 44576,
-		"jF": 0,
+	"/img/gallery/in-line.png": {
+		"ft": 32768,
+		"iS": 2531,
 		"oA": 0,
-		"oAP": "/img/hero/hero-2.jpg",
+		"oAP": "/img/gallery/in-line.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/gallery/visual.png": {
+		"ft": 32768,
+		"iS": 2119,
+		"oA": 0,
+		"oAP": "/img/gallery/visual.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/gallery/visual2.png": {
+		"ft": 32768,
+		"iS": 375,
+		"oA": 0,
+		"oAP": "/img/gallery/visual2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/gallery/visual3.png": {
+		"ft": 32768,
+		"iS": 3133,
+		"oA": 0,
+		"oAP": "/img/gallery/visual3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/gallery/visual4.png": {
+		"ft": 32768,
+		"iS": 980,
+		"oA": 0,
+		"oAP": "/img/gallery/visual4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/index.html": {
@@ -276,7 +266,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/sections/_asset.scss": {
+	"/scss/sections/_block.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -284,12 +274,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/sections/_asset.css",
+		"oAP": "/scss/sections/_block.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/sections/_gallery.scss": {
+	"/scss/sections/_flex.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -297,12 +287,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/sections/_gallery.css",
+		"oAP": "/scss/sections/_flex.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/sections/_heroes.scss": {
+	"/scss/sections/_grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -310,12 +300,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/sections/_heroes.css",
+		"oAP": "/scss/sections/_grid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/sections/_virtual.scss": {
+	"/scss/sections/_in-line-block.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -323,7 +313,33 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/sections/_virtual.css",
+		"oAP": "/scss/sections/_in-line-block.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/sections/_in-line.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/sections/_in-line.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/sections/_none.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/sections/_none.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -348,7 +364,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 577290942.66885102,
-	"displayValue": "1.Start",
+	"displayValue": "dev",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-leo",
 	"iconImageWasSetByUser": 0

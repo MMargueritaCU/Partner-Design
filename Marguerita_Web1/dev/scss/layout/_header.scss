@@ -1,10 +1,11 @@
 /* =============
     Header
 ============= */
-header{
-    background-color: $darkBlue;
+#header{
+  padding: 36px 15px 20px;
+  background-color: $blue;
 
-    i{
-      color: $white;
-    }
+  h1{
+    color: $lightBlue;
+  }
 }

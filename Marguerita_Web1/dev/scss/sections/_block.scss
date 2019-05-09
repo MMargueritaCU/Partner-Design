@@ -1,0 +1,15 @@
+/* =============
+    Block
+============= */
+#block{
+  background-color: $greyBackground;
+  article{
+    h2{
+      color: $blue;
+    }
+  }
+  img{
+    background-color: $white;
+    width: 100%;
+  }
+}
