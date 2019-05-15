@@ -1,10 +1,95 @@
 /* =============
     Grid
 ============= */
-#grid{
-  div{
-    img{
-      width: 100%;
+#grid {
+  section {
+    padding-bottom: 40px;
+
+    h1 {
+      color: $blue;
+      font-size: rem-calc(35);
+      line-height: 47px;
+      padding-bottom: 5px;
+      text-align: center;
     }
   }
+
+  article {
+    display: grid;
+    grid-template-areas: "DISPLAY GRID" "PARA PARA";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    ul {
+      display: grid;
+      grid-gap: none;
+      grid-template-areas: "G R" "I D";
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+
+      li {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: $white;
+          font-size: rem-calc(70);
+          font-weight: 700;
+          text-shadow: -1px -1px 0 $border, 1px -1px 0 $border, -1px 1px 0 $border, 1px 1px 0 $border,;
+        }
+      }
+    }
+  }
+}
+
+#G {
+  border-bottom: 1px solid $border;
+  border-right: 1px solid $border;
+  grid-area: G;
+  padding-top: 50px;
+}
+
+#R {
+  border-bottom: 1px solid $border;
+  border-left: 1px solid $border;
+  grid-area: R;
+  padding-top: 50px;
+}
+
+#I {
+  border-right: 1px solid $border;
+  border-top: 1px solid $border;
+  grid-area: I;
+  padding-bottom: 50px;
+}
+
+#D {
+  border-left: 1px solid $border;
+  border-top: 1px solid $border;
+  grid-area: D;
+  padding-bottom: 50px;
+}
+
+#DISPLAY {
+  grid-area: DISPLAY;
+  padding-top: 115px;
+}
+
+#PARA {
+  border-right: 2px solid $border;
+  grid-area: PARA;
+  margin-right: 80px;
+  padding-bottom: 30px;
+
+  p {
+    font-size: rem-calc(14);
+    letter-spacing: 0.5px;
+    line-height: 19px;
+    padding-bottom: 20px;
+  }
+}
+
+#GRID {
+  grid-area: GRID;
 }

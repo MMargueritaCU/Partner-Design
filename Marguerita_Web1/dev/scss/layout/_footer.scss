@@ -1,3 +1,22 @@
 /* =============
     Footer
 ============= */
+#footer{
+  background-color: $greyFooter;
+  padding: 10px;
+  text-align: right;
+  a{
+    font-size: rem-calc(14);
+    line-height: 19px;
+    font-family: Open Sans;
+    font-weight: 700;
+    letter-spacing: -0.09px;
+    text-decoration: none;
+  }
+  a:link, a:visited{
+    color: $green;
+  }
+  a:hover, a:active{
+    color: $white;
+  }
+}

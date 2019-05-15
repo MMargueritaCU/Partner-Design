@@ -1,17 +1,21 @@
 /* =============
     In-Line
 ============= */
-#in-line{
+#in-line {
   background-color: $greyBackground;
-  article{
-    h2{
+
+  article {
+    h2 {
       color: $purple;
-      text-shadow: -1.5px -1.5px $black;
       font-size: rem-calc(22);
       line-height: 30px;
+      padding-top: 10px;
+      text-shadow: -1.5px -1.5px $black;
     }
-    div{
-      p{
+
+    div {
+      padding-bottom: 15px;
+      p {
         font-size: rem-calc(14);
         line-height: 19px;
         padding-top: 20px;

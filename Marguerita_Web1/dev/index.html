@@ -2,16 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Display Property</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Display Property</title>
 </head>
 
 <body>
@@ -43,7 +43,16 @@
 
   <section class="content-grid" id="inline-img">
     <div class="content-grid-item">
-      <img src="img/gallery/in-line.png" alt="in-line">
+      <!-- <img src="img/gallery/in-line.png" alt="in-line"> -->
+      <ul>
+        <li id="pu"><p>IN-LINE EX.</p></li>
+        <li id="pu2"></li>
+        <li id="blu" ></li>
+        <li id="blu2" ></li>
+        <li id="blu3" ></li>
+        <li id="gr"></li>
+        <li id="gr2"></li>
+      </ul>
     </div>
   </section>
 
@@ -62,7 +71,12 @@
 
   <section class="content-grid" id="block-img">
     <div class="content-grid-item">
-      <img src="img/gallery/block.png" alt="block">
+      <!--<img src="img/gallery/block.png" alt="block">-->
+      <ul>
+        <li id="purple"><p>BLOCK EX.</p></li>
+        <li id="blue"></li>
+        <li id="green"></li>
+      </ul>
     </div>
   </section>
 
@@ -81,7 +95,12 @@
 
   <section class="content-grid" id="inlineblock-img">
     <div class="content-grid-item">
-      <img src="img/gallery/visual.png" alt="visual">
+      <!--<img src="img/gallery/visual.png" alt="visual">-->
+      <ul>
+        <li id="purple2"><div><p>IN-LINE</p><p>BLOCK EX.</p></div></li>
+        <li id="blue2"></li>
+        <li id="green2"></li>
+      </ul>
     </div>
   </section>
 
@@ -89,51 +108,89 @@
     <div class="content-grid-item">
       <article>
         <h2>DISPLAY: NONE;</h2>
-        <p>Hiding an element can be done by setting the display property to none. The element will be hidden, and the page will be displayed as if the element is not there.</p>
-        <p>This is commonly used with JavaScript to hide and show elements without deleting and recreating them.</p>
-        <p>The &lt;script&gt; element uses display: none; as default. </p>
+        <div>
+          <p>Hiding an element can be done by setting the display property to none. The element will be hidden, and the page will be displayed as if the element is not there.</p>
+          <p>This is commonly used with JavaScript to hide and show elements without deleting and recreating them.</p>
+          <p>The &lt;script&gt; element uses display: none; as default. </p>
+        </div>
       </article>
     </div>
   </section>
 
   <section class="content-grid" id="none-visual">
     <div class="content-grid-item">
-      <div>
+      <article>
         <h3><span>BEFORE</span>DISPLAY: NONE;</h3>
         <h3><span>AFTER</span>DISPLAY: NONE;</h3>
-      </div>
-      <img src="img/gallery/visual2.png" alt="visual 2">
+      </article>
+      <!-- <img src="img/gallery/visual2.png" alt="visual 2"> -->
+      <!-- <area shape="default"> -->
+      <section></section>
     </div>
   </section>
 
   <section class="content-grid" id="grid">
     <div class="content-grid-item">
-      <h1>But wait... there's more</h1>
-      <div>
-        <h2>DISPLAY;</h2>
-        <img src="img/gallery/grid.png" alt="grid">
-      </div>
-      <p>An HTML element becomes a grid container by setting the display property to grid or inline-grid.</p>
-      <p>All direct children of the grid container automatically become grid items.</p>
-      <p>These grids are made up of rows,columns, and the space in between (gaps).</p>
-      <img src="img/gallery/visual3.png" alt="visual 3">
+      <section>
+        <h1>But</h1>
+        <h1>wait...</h1>
+        <h1>there's</h1>
+        <h1>more</h1>
+      </section>
+      <article>
+        <h2 id="DISPLAY">DISPLAY;</h2>
+        <ul id="GRID">
+          <li id="G"><p>G</p></li>
+          <li id="R"><p>R</p></li>
+          <li id="I"><p>I</p></li>
+          <li id="D"><p>D</p></li>
+        </ul>
+        <!--<img src="img/gallery/grid.png" alt="grid">-->
+        <div id="PARA">
+          <p>An HTML element becomes a grid container by setting the display  property to grid or inline-grid.</p>
+          <p>All direct children of the grid container automatically become grid items.</p>
+          <p>These grids are made up of rows,columns, and the space in between (gaps).</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="content-grid" id="grid-img">
+    <div class="content-grid-item">
+      <!--<img src="img/gallery/visual3.png" alt="visual 3">-->
+      <ul>
+        <li id="BLUE"></li>
+        <li id="GREEN"></li>
+        <li id="PURPLE"></li>
+        <li id="WHITE"></li>
+        <li id="TEXT1"><p>20</p></li>
+        <li id="TEXT2"><p>20</p></li>
+        <li id="TEXT3"><p>auto</p></li>
+        <li id="TEXT4"><p>auto</p></li>
+        <li id="TEXT5"><p>auto</p></li>
+      </ul>
     </div>
   </section>
 
   <section class="content-grid" id="flex">
     <div class="content-grid-item">
-      <h1>Last, but not least...</h1>
-      <h2>DISPLAY;</h2>
-      <h2>FLEX</h2>
-      <p>The flex CSS property sets how a flex item will grow or shrink to fit the space available in its flex container. It is a shorthand for flex-grow, flex-shrink, and flex-basis.</p>
-      <p>For most purposes, authors should set flex to one of the following values: auto, initial, none, or a positive unitless number. </p>
-      <p>The flex property may be specified using one, two, or three values.</p>
+      <section>
+        <h1>Last, but</h1>
+        <h1>not least...</h1>
+      </section>
+      <h2>DISPLAY ;</h2>
+      <h3>FLEX</h3>
+      <div>
+        <p>The flex CSS property sets how a flex item will grow or shrink to fit the space available in its flex container. It is a shorthand for flex-grow, flex-shrink, and flex-basis.</p>
+        <p>For most purposes, authors should set flex to one of the following values: auto, initial, none, or a positive unitless number. </p>
+        <p>The flex property may be specified using one, two, or three values.</p>
+      </div>
       <img src="img/gallery/visual4.png" alt="visual 4">
     </div>
   </section>
 
   <footer id="footer">
-    <h2>Back to top</h2>
+    <a href="#">Back to top</a>
   </footer>
 
 </body>

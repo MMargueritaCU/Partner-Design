@@ -1,0 +1,70 @@
+/* =============
+    Grid-Img
+============= */
+#grid-img{
+  ul{
+    display: grid;
+    grid-template-areas:
+    ". TEXT1 TEXT3 TEXT4"
+    "TEXT2 BLUE WHITE GREEN"
+    "TEXT5 PURPLE PURPLE GREEN";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 80px);
+  }
+}
+
+#BLUE{
+  grid-area: BLUE;
+  background-color: $blue;
+  border: 5px solid $white;
+  outline: 1px solid $border;
+}
+
+#PURPLE{
+  grid-area: PURPLE;
+  width: 93.5%;
+  background-color: $purple;
+  border: 5px solid $white;
+  outline: 1px solid $border;
+}
+
+#GREEN{
+  grid-area: GREEN;
+  background-color: $green;
+  border: 5px solid $white;
+  outline: 1px solid $border;
+}
+
+#WHITE{
+  grid-area: WHITE;
+  background-color: $white;
+  outline: 1px solid $border;
+  width: 99%;
+  height: 99%;
+}
+
+#TEXT1{
+  grid-area: TEXT1;
+  text-align: center;
+  padding-top: 60px;
+}
+#TEXT2{
+  grid-area: TEXT2;
+  padding-top: 30px;
+  padding-left: 55px;
+}
+#TEXT3{
+  grid-area: TEXT3;
+  text-align: center;
+  padding-top: 60px;
+}
+#TEXT4{
+  grid-area: TEXT4;
+  text-align: center;
+  padding-top: 60px;
+}
+#TEXT5{
+  grid-area: TEXT5;
+  padding-top: 30px;
+  padding-left: 45px;
+}

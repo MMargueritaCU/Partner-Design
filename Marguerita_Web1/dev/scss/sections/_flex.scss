@@ -1,10 +1,47 @@
 /* =============
     Flex
 ============= */
-#flex{
-  div{
-    img{
-      width: 100%;
+#flex {
+  section {
+    padding-bottom: 60px;
+    padding-top: 30px;
+
+    h1 {
+      color: $purple;
+      font-size: rem-calc(35);
+      letter-spacing: -0.22px;
+      line-height: 47px;
+      text-align: center;
     }
+  }
+
+  h2 {
+    font-size: rem-calc(22);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    padding-left: 28px;
+  }
+
+  h3 {
+    color: $lightGrey;
+    font-size: rem-calc(74);
+    letter-spacing: 27px;
+    line-height: 101px;
+    text-align: center;
+  }
+
+  div {
+    padding-bottom: 20px;
+
+    p {
+      font-size: rem-calc(14);
+      line-height: 19px;
+      padding-top: 20px;
+    }
+  }
+
+  img {
+    width: 100%;
   }
 }

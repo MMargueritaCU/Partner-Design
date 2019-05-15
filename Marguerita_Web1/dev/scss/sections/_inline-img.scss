@@ -1,8 +1,61 @@
 /* =============
     Inline-Img
 ============= */
-#inline-img{
-  img{
-    width: 100%;
+#inline-img {
+  padding: 45px 0;
+  ul {
+    display: grid;
+    grid-gap: none;
+    grid-template-areas:
+    ". pu pu pu pu pu blu blu blu"
+    "blu2 blu2 blu2 gr gr gr gr gr gr"
+    "gr2 pu2 pu2 pu2 blu3 blu3 blu3 . .";
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(3, 62px);
+
+    li{
+      p{
+        padding: 10px;
+        color: $white;
+        font-size: rem-calc(10);
+        line-height: 14px;
+        font-weight: 700;
+      }
+    }
   }
+}
+
+#pu {
+  background: $purple;
+  grid-area: pu;
+}
+
+#pu2 {
+  background: $purple;
+  grid-area: pu2;
+}
+
+#blu {
+  background: $blue;
+  grid-area: blu;
+}
+
+#blu2 {
+  background: $blue;
+  grid-area: blu2;
+}
+
+#blu3 {
+  background: $blue;
+  grid-area: blu3;
+}
+
+#gr {
+  background: $green;
+  grid-area: gr;
+}
+
+#gr2 {
+  background: $green;
+  grid-area: gr2;
 }

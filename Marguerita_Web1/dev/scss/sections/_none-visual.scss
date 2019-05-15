@@ -1,6 +1,38 @@
 /* =============
     None-visual
 ============= */
-#none-visual{
+#none-visual {
+  div {
+    padding-top: 25px;
+  }
 
+  area{
+    color: $purple;
+    width: 131px;
+    height: 60px;
+  }
+
+  article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 25px;
+
+    h3 {
+      font-size: rem-calc(10);
+      font-weight: 700;
+      line-height: 14px;
+
+      span {
+        color: $purple;
+        padding-right: 3px;
+      }
+    }
+  }
+
+  section{
+    width: 45%;
+    height: 50px;
+    background-color: $purple;
+  }
 }

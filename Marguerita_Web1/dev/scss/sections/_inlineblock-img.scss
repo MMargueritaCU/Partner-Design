@@ -2,7 +2,42 @@
     InLineBlock-img
 ============= */
 #inlineblock-img{
-  img{
-    width: 100%;
+  padding: 45px 0;
+
+  ul{
+    display: grid;
+    grid-gap: none;
+    grid-template-areas:
+    "purple2 blue2 green2";
+    grid-template-columns: repeat(3, 1fr);
+    height: 72px;
+
+    li{
+      div{
+        color: $white;
+        padding: 16px 12px;
+
+        p{
+          font-weight: 700;
+          font-size: rem-calc(10);
+          line-height: 14px;
+        }
+      }
+    }
   }
+}
+
+#purple2{
+  background-color: $purple;
+  grid-area: purple2;
+}
+
+#blue2{
+  background-color: $blue;
+  grid-area: blue2;
+}
+
+#green2{
+  background-color: $green;
+  grid-area: green2;
 }
